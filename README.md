@@ -1,3 +1,5 @@
+**Изменения: Добавил директорию js, в которой есть два файла: findSubstrInFile.async.js и findSubstrInFile.sync.js. От main.js они отличаются тем, что я добавил логику рекурсивного поиска файлов из указанной директории (в main.js я не учел, что в директории могут находиться поддиректории. Файл findSubstrInFile.async.js - использует асинхронные методы, а файл findSubstrInFile.sync.js - синхронные методы)**
+
 **Дано задание:**
 
   -Используйте документацию (https://nodejs.org/dist/latest-v16.x/docs/api/, точнее описание использования модуля "fs" https://nodejs.org/dist/latest-v16.x/docs/api/fs.html) для создания модуля (файла "*.js") который будет
